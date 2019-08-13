@@ -374,7 +374,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-nav-bar></app-nav-bar>\n\n\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-2 collapse d-md-flex bg-light pt-2 min-vh-100 \" id=\"sidebar\">\n            <app-menu-lateral></app-menu-lateral>\n        </div>\n        <div class=\"col pt-2\">\n            <router-outlet></router-outlet>\n        </div>\n\n    </div>\n</div>"
+module.exports = "<app-nav-bar></app-nav-bar>\n\n\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-2 collapse d-md-flex bg-light pt-2 min-vh-100 \" id=\"sidebar\">\n            <app-menu-lateral></app-menu-lateral>\n        </div>\n        <div class=\"col pt-2\">\n            <router-outlet></router-outlet>\n        </div>\n\n    </div>\n</div>\n<ngx-spinner bdColor=\"rgba(51,51,51,0.8)\" size=\"large\" color=\"#fff\" type=\"ball-clip-rotate-multiple\">\n    <p style=\"font-size: 20px; color: white\">Aguarde...</p>\n</ngx-spinner>"
 
 /***/ }),
 
@@ -434,25 +434,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _menu_lateral_menu_lateral_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./menu-lateral/menu-lateral.component */ "./src/app/menu-lateral/menu-lateral.component.ts");
 /* harmony import */ var _log_acesso_log_acesso_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./log-acesso/log-acesso.component */ "./src/app/log-acesso/log-acesso.component.ts");
 /* harmony import */ var _listagem_log_listagem_log_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./listagem-log/listagem-log.component */ "./src/app/listagem-log/listagem-log.component.ts");
-/* harmony import */ var primeng_fileupload__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! primeng/fileupload */ "./node_modules/primeng/fileupload.js");
-/* harmony import */ var primeng_fileupload__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(primeng_fileupload__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var primeng_table__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! primeng/table */ "./node_modules/primeng/table.js");
-/* harmony import */ var primeng_table__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(primeng_table__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var primeng_tooltip__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! primeng/tooltip */ "./node_modules/primeng/tooltip.js");
-/* harmony import */ var primeng_tooltip__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(primeng_tooltip__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var primeng_messages__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! primeng/messages */ "./node_modules/primeng/messages.js");
-/* harmony import */ var primeng_messages__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(primeng_messages__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var primeng_message__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! primeng/message */ "./node_modules/primeng/message.js");
-/* harmony import */ var primeng_message__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(primeng_message__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var primeng_paginator__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! primeng/paginator */ "./node_modules/primeng/paginator.js");
-/* harmony import */ var primeng_paginator__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(primeng_paginator__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var primeng_inputmask__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! primeng/inputmask */ "./node_modules/primeng/inputmask.js");
-/* harmony import */ var primeng_inputmask__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(primeng_inputmask__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
-/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! primeng/chart */ "./node_modules/primeng/chart.js");
-/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(primeng_chart__WEBPACK_IMPORTED_MODULE_21__);
-/* harmony import */ var primeng_accordion__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! primeng/accordion */ "./node_modules/primeng/accordion.js");
-/* harmony import */ var primeng_accordion__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(primeng_accordion__WEBPACK_IMPORTED_MODULE_22__);
+/* harmony import */ var ngx_spinner__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ngx-spinner */ "./node_modules/ngx-spinner/fesm5/ngx-spinner.js");
+/* harmony import */ var primeng_fileupload__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! primeng/fileupload */ "./node_modules/primeng/fileupload.js");
+/* harmony import */ var primeng_fileupload__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(primeng_fileupload__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var primeng_table__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! primeng/table */ "./node_modules/primeng/table.js");
+/* harmony import */ var primeng_table__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(primeng_table__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var primeng_tooltip__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! primeng/tooltip */ "./node_modules/primeng/tooltip.js");
+/* harmony import */ var primeng_tooltip__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(primeng_tooltip__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var primeng_messages__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! primeng/messages */ "./node_modules/primeng/messages.js");
+/* harmony import */ var primeng_messages__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(primeng_messages__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var primeng_message__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! primeng/message */ "./node_modules/primeng/message.js");
+/* harmony import */ var primeng_message__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(primeng_message__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var primeng_paginator__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! primeng/paginator */ "./node_modules/primeng/paginator.js");
+/* harmony import */ var primeng_paginator__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(primeng_paginator__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var primeng_inputmask__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! primeng/inputmask */ "./node_modules/primeng/inputmask.js");
+/* harmony import */ var primeng_inputmask__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(primeng_inputmask__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
+/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! primeng/chart */ "./node_modules/primeng/chart.js");
+/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(primeng_chart__WEBPACK_IMPORTED_MODULE_22__);
+/* harmony import */ var primeng_accordion__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! primeng/accordion */ "./node_modules/primeng/accordion.js");
+/* harmony import */ var primeng_accordion__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(primeng_accordion__WEBPACK_IMPORTED_MODULE_23__);
+
 
 
 
@@ -488,22 +490,23 @@ var AppModule = /** @class */ (function () {
                 _menu_lateral_menu_lateral_component__WEBPACK_IMPORTED_MODULE_10__["MenuLateralComponent"],
                 _log_acesso_log_acesso_component__WEBPACK_IMPORTED_MODULE_11__["LogAcessoComponent"],
                 _listagem_log_listagem_log_component__WEBPACK_IMPORTED_MODULE_12__["ListagemLogComponent"],
-                _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_20__["DashboardComponent"]
+                _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_21__["DashboardComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_6__["AppRoutingModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"],
-                primeng_fileupload__WEBPACK_IMPORTED_MODULE_13__["FileUploadModule"],
-                primeng_table__WEBPACK_IMPORTED_MODULE_14__["TableModule"],
+                primeng_fileupload__WEBPACK_IMPORTED_MODULE_14__["FileUploadModule"],
+                primeng_table__WEBPACK_IMPORTED_MODULE_15__["TableModule"],
                 _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__["BrowserAnimationsModule"],
-                primeng_tooltip__WEBPACK_IMPORTED_MODULE_15__["TooltipModule"],
-                primeng_messages__WEBPACK_IMPORTED_MODULE_16__["MessagesModule"],
-                primeng_message__WEBPACK_IMPORTED_MODULE_17__["MessageModule"],
-                primeng_paginator__WEBPACK_IMPORTED_MODULE_18__["PaginatorModule"],
-                primeng_inputmask__WEBPACK_IMPORTED_MODULE_19__["InputMaskModule"],
-                primeng_chart__WEBPACK_IMPORTED_MODULE_21__["ChartModule"],
-                primeng_accordion__WEBPACK_IMPORTED_MODULE_22__["AccordionModule"]
+                primeng_tooltip__WEBPACK_IMPORTED_MODULE_16__["TooltipModule"],
+                primeng_messages__WEBPACK_IMPORTED_MODULE_17__["MessagesModule"],
+                primeng_message__WEBPACK_IMPORTED_MODULE_18__["MessageModule"],
+                primeng_paginator__WEBPACK_IMPORTED_MODULE_19__["PaginatorModule"],
+                primeng_inputmask__WEBPACK_IMPORTED_MODULE_20__["InputMaskModule"],
+                primeng_chart__WEBPACK_IMPORTED_MODULE_22__["ChartModule"],
+                primeng_accordion__WEBPACK_IMPORTED_MODULE_23__["AccordionModule"],
+                ngx_spinner__WEBPACK_IMPORTED_MODULE_13__["NgxSpinnerModule"]
             ],
             providers: [primeng_components_common_messageservice__WEBPACK_IMPORTED_MODULE_5__["MessageService"]],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
@@ -551,12 +554,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _dashboard_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./dashboard.service */ "./src/app/dashboard/dashboard.service.ts");
+/* harmony import */ var ngx_spinner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ngx-spinner */ "./node_modules/ngx-spinner/fesm5/ngx-spinner.js");
+
 
 
 
 var DashboardComponent = /** @class */ (function () {
-    function DashboardComponent(dashboardService) {
+    function DashboardComponent(dashboardService, spinner) {
         this.dashboardService = dashboardService;
+        this.spinner = spinner;
     }
     DashboardComponent.prototype.ngOnInit = function () {
         this.labelGrafico = [];
@@ -565,6 +571,7 @@ var DashboardComponent = /** @class */ (function () {
     };
     DashboardComponent.prototype.carregarDados = function () {
         var _this = this;
+        this.spinner.show();
         this.dashboardService.listar().subscribe(function (res) {
             _this.listaAccesso = res;
             _this.extraiInfo();
@@ -578,6 +585,7 @@ var DashboardComponent = /** @class */ (function () {
                     }
                 ]
             };
+            _this.spinner.hide();
         });
     };
     DashboardComponent.prototype.extraiInfo = function () {
@@ -605,7 +613,8 @@ var DashboardComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./dashboard.component.html */ "./src/app/dashboard/dashboard.component.html"),
             styles: [__webpack_require__(/*! ./dashboard.component.css */ "./src/app/dashboard/dashboard.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_dashboard_service__WEBPACK_IMPORTED_MODULE_2__["DashboardService"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_dashboard_service__WEBPACK_IMPORTED_MODULE_2__["DashboardService"],
+            ngx_spinner__WEBPACK_IMPORTED_MODULE_3__["NgxSpinnerService"]])
     ], DashboardComponent);
     return DashboardComponent;
 }());
@@ -633,7 +642,9 @@ __webpack_require__.r(__webpack_exports__);
 var DashboardService = /** @class */ (function () {
     function DashboardService(httpClient) {
         this.httpClient = httpClient;
-        this.apiUrl = "http://localhost:8081/access-api";
+        this.apiUrl = "";
+        this.apiUrl = "https://access-api-ps.herokuapp.com/access-api";
+        //this.apiUrl = "http://localhost:8081/access-api";
     }
     DashboardService.prototype.listar = function () {
         return this.httpClient.get(this.apiUrl + "/dashboard/ip-useragente");
@@ -669,7 +680,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"card-body\">\n    <p-messages [(value)]=\"msgs\"></p-messages>\n\n    <div class=\"container\">\n        <div class=\"d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom\">\n            <h1 class=\"h2\">Listagem de Log</h1>\n            <div class=\"btn-toolbar mb-2 mb-md-0\">\n                <div class=\"btn-group mr-2\">\n                    <button type=\"button\" routerLink=\"/cadastro-log\" class=\"btn sec btn-sm btn-success\">\n                        <b> Novo Log </b>\n                    </button>\n                </div>\n            </div>\n        </div>\n        <div class=\"form-row \">\n            <div class=\"form-group col-sm-2 input-group-sm \">\n                <b><label>IP</label></b>\n                <input type=\"text \" class=\"form-control\" placeholder=\"192.168.10.110\" [(ngModel)]=\"filtro.ip\" (keyup)=\"filtrar()\" maxlength=\"15\">\n            </div>\n            <div class=\"form-group col-sm-9 input-group-sm \">\n                <b><label>User Agent</label></b>\n                <input type=\"text \" class=\"form-control \" placeholder=\"Informe o User Agent\" [(ngModel)]=\"filtro.userAgent\" (keyup)=\"filtrar()\">\n            </div>\n\n            <div class=\"form-group col-sm-1 input-group-sm \">\n                <button type=\"button\" class=\"btn btn-sm btn-danger form-control\" pTooltip=\"Limpar\" tooltipPosition=\"top\" (click)=\"ngOnInit()\" style=\"margin-top: 30px;\">\n                    <b> Limpar</b>\n                </button>\n            </div>\n        </div>\n        <p-table [value]=\"listaLog\">\n            <ng-template pTemplate=\"header\">\n                <tr>\n                    <th width=\"120 \">#</th>\n                    <th width=\"150 \">Data de Acesso</th>\n                    <th width=\"140 \">IP</th>\n                    <th width=\"100 \">Status</th>\n                    <th width=\"160 \">Metodo HTTP</th>\n                    <th>User Agent</th>\n                    <th width=\"160 \">Ações</th>\n                </tr>\n            </ng-template>\n            <ng-template pTemplate=\"body\" let-log>\n                <tr>\n                    <td>{{ log.id }}</td>\n                    <td>{{ log.data | date: 'dd/MM/yyyy HH:mm' }}</td>\n                    <td>{{ log.ip }}</td>\n                    <td>{{ log.status }}</td>\n                    <td>{{ log.request }}</td>\n                    <td>{{ log.userAgent }}</td>\n                    <td align=\"center\">\n\n                        <button type=\"button\" class=\"btn sec btn-sm btn-link text-danger\" pTooltip=\"Deletar Log Acesso\" tooltipPosition=\"top\" (click)=\"delete(log.id)\">\n                            <i class=\"material-icons\">delete</i>\n                        </button>\n                    </td>\n                </tr>\n            </ng-template>\n        </p-table>\n        <p-paginator [rows]=\"pagina.size\" [totalRecords]=\"pagina.totalElements\" [rowsPerPageOptions]=\"[10,20,40]\" (onPageChange)=\" paginar($event) \"></p-paginator>\n    </div>\n</section>"
+module.exports = "<section class=\"card-body\">\n    <p-messages [(value)]=\"msgs\"></p-messages>\n\n    <div class=\"container\">\n        <div class=\"d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom\">\n            <h1 class=\"h2\">Listagem de Log</h1>\n            <div class=\"btn-toolbar mb-2 mb-md-0\">\n                <div class=\"btn-group mr-2\">\n                    <button type=\"button\" routerLink=\"/cadastro-log\" class=\"btn sec btn-sm btn-success\">\n                        <b> Novo Log </b>\n                    </button>\n                </div>\n            </div>\n        </div>\n        <div class=\"form-row \">\n            <div class=\"form-group col-sm-2 input-group-sm \">\n                <b><label>IP</label></b>\n                <input type=\"text \" class=\"form-control\" placeholder=\"192.168.10.110\" [(ngModel)]=\"filtro.ip\" (keyup)=\"filtrar()\" maxlength=\"15\">\n            </div>\n            <div class=\"form-group col-sm-9 input-group-sm \">\n                <b><label>User Agent</label></b>\n                <input type=\"text \" class=\"form-control \" placeholder=\"Informe o User Agent\" [(ngModel)]=\"filtro.userAgent\" (keyup)=\"filtrar()\">\n            </div>\n\n            <div class=\"form-group col-sm-1 input-group-sm \">\n                <button type=\"button\" class=\"btn btn-sm btn-danger form-control\" pTooltip=\"Limpar\" tooltipPosition=\"top\" (click)=\"ngOnInit()\" style=\"margin-top: 30px;\">\n                    <b> Limpar</b>\n                </button>\n            </div>\n        </div>\n        <p-table [value]=\"listaLog\">\n            <ng-template pTemplate=\"header\">\n                <tr>\n                    <th width=\"120 \">#</th>\n                    <th width=\"150 \">Data de Acesso</th>\n                    <th width=\"140 \">IP</th>\n                    <th width=\"100 \">Status</th>\n                    <th width=\"160 \">Metodo HTTP</th>\n                    <th>User Agent</th>\n                    <th width=\"160 \">Ações</th>\n                </tr>\n            </ng-template>\n            <ng-template pTemplate=\"body\" let-log>\n                <tr>\n                    <td>{{ log.id }}</td>\n                    <td>{{ log.data | date: 'dd/MM/yyyy HH:mm' }}</td>\n                    <td>{{ log.ip }}</td>\n                    <td>{{ log.status }}</td>\n                    <td>{{ log.request }}</td>\n                    <td>{{ log.userAgent }}</td>\n                    <td align=\"center\">\n\n                        <button type=\"button\" class=\"btn sec btn-sm btn-link text-danger\" pTooltip=\"Deletar Log Acesso\" tooltipPosition=\"top\" (click)=\"delete(log.id)\">\n                            <i class=\"material-icons\">delete</i>\n                        </button>\n                    </td>\n                </tr>\n            </ng-template>\n        </p-table>\n        <p-paginator [rows]=\"pagina.size\" [totalRecords]=\"pagina.totalElements\" [rowsPerPageOptions]=\"[10,20,40]\" (onPageChange)=\"paginar($event) \"></p-paginator>\n    </div>\n    <ngx-spinner bdColor=\"rgba(51,51,51,0.8)\" size=\"large\" color=\"#fff\" type=\"ball-clip-rotate-multiple\">\n        <p style=\"font-size: 20px; color: white\">Aguarde...</p>\n    </ngx-spinner>\n</section>"
 
 /***/ }),
 
@@ -687,14 +698,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _modelo_page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../modelo/page */ "./src/app/modelo/page.ts");
 /* harmony import */ var _log_acesso_log_acesso_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../log-acesso/log-acesso.service */ "./src/app/log-acesso/log-acesso.service.ts");
+/* harmony import */ var ngx_spinner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-spinner */ "./node_modules/ngx-spinner/fesm5/ngx-spinner.js");
+
 
 
 
 
 var ListagemLogComponent = /** @class */ (function () {
-    function ListagemLogComponent(logAcessoService) {
+    function ListagemLogComponent(logAcessoService, spinner) {
         this.logAcessoService = logAcessoService;
+        this.spinner = spinner;
         this.msgs = [];
+        this.isFiltrando = false;
     }
     ListagemLogComponent.prototype.ngOnInit = function () {
         this.filtro = { ip: '', userAgent: '' };
@@ -703,29 +718,49 @@ var ListagemLogComponent = /** @class */ (function () {
     };
     ListagemLogComponent.prototype.listarAccess = function (page, size) {
         var _this = this;
+        this.spinner.show();
         this.logAcessoService.listar(page, size).subscribe(function (res) {
             _this.pagina = res;
             _this.listaLog = _this.pagina.content;
+            _this.isFiltrando = false;
+            _this.spinner.hide();
         });
     };
-    ListagemLogComponent.prototype.filtrar = function () {
+    ListagemLogComponent.prototype.filtrarAccess = function (page, size) {
         var _this = this;
+        this.spinner.show();
+        this.logAcessoService.filtrar(page, size, this.filtro).subscribe(function (res) {
+            var retorno = res;
+            _this.pagina = retorno.data;
+            _this.listaLog = _this.pagina.content;
+            _this.isFiltrando = true;
+        });
+    };
+    ListagemLogComponent.prototype.paginar = function (event) {
+        this.pagina = new _modelo_page__WEBPACK_IMPORTED_MODULE_2__["Page"](event.page, event.rows);
+        if (this.isFiltrando) {
+            this.filtrarAccess(this.pagina.number, this.pagina.size);
+        }
+        else {
+            this.listarAccess(this.pagina.number, this.pagina.size);
+        }
+    };
+    ListagemLogComponent.prototype.filtrar = function () {
         if (this.filtro.ip.length >= 5 || this.filtro.userAgent.length >= 5) {
             this.pagina = new _modelo_page__WEBPACK_IMPORTED_MODULE_2__["Page"](0, 10);
-            this.logAcessoService.filtrar(this.pagina.number, this.pagina.size, this.filtro).subscribe(function (res) {
-                var retorno = res;
-                _this.pagina = retorno.data;
-                _this.listaLog = _this.pagina.content;
-            });
+            this.filtrarAccess(this.pagina.number, this.pagina.size);
         }
     };
     ListagemLogComponent.prototype.delete = function (id) {
         var _this = this;
+        this.spinner.show();
         this.logAcessoService.delete(id).subscribe(function (res) {
             var retorno = res;
             _this.showMsg('success', '', retorno.message);
             _this.listarAccess(_this.pagina.number, _this.pagina.size);
+            _this.spinner.hide();
         }, function (err) {
+            _this.spinner.hide();
             _this.showMsg('error', '', err.error);
         });
     };
@@ -739,7 +774,8 @@ var ListagemLogComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./listagem-log.component.html */ "./src/app/listagem-log/listagem-log.component.html"),
             styles: [__webpack_require__(/*! ./listagem-log.component.css */ "./src/app/listagem-log/listagem-log.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_log_acesso_log_acesso_service__WEBPACK_IMPORTED_MODULE_3__["LogAcessoService"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_log_acesso_log_acesso_service__WEBPACK_IMPORTED_MODULE_3__["LogAcessoService"],
+            ngx_spinner__WEBPACK_IMPORTED_MODULE_4__["NgxSpinnerService"]])
     ], ListagemLogComponent);
     return ListagemLogComponent;
 }());
@@ -784,13 +820,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _log_acesso_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./log-acesso.service */ "./src/app/log-acesso/log-acesso.service.ts");
 /* harmony import */ var _modelo_Access__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../modelo/Access */ "./src/app/modelo/Access.ts");
+/* harmony import */ var ngx_spinner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-spinner */ "./node_modules/ngx-spinner/fesm5/ngx-spinner.js");
+
 
 
 
 
 var LogAcessoComponent = /** @class */ (function () {
-    function LogAcessoComponent(logAcessoService) {
+    function LogAcessoComponent(logAcessoService, spinner) {
         this.logAcessoService = logAcessoService;
+        this.spinner = spinner;
         this.msgs = [];
     }
     LogAcessoComponent.prototype.ngOnInit = function () {
@@ -799,12 +838,15 @@ var LogAcessoComponent = /** @class */ (function () {
     };
     LogAcessoComponent.prototype.salvar = function (_access) {
         var _this = this;
+        this.spinner.show();
         this.logAcessoService.salvar(_access).subscribe(function (res) {
             var retorno = res;
             _this.showMsg('success', '', retorno.message);
             _this.access = new _modelo_Access__WEBPACK_IMPORTED_MODULE_3__["Access"];
+            _this.spinner.hide();
         }, function (err) {
             _this.showMsg('error', '', err.error);
+            _this.spinner.hide();
         });
     };
     LogAcessoComponent.prototype.showMsg = function (_severity, _summary, _detail) {
@@ -817,7 +859,8 @@ var LogAcessoComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./log-acesso.component.html */ "./src/app/log-acesso/log-acesso.component.html"),
             styles: [__webpack_require__(/*! ./log-acesso.component.css */ "./src/app/log-acesso/log-acesso.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_log_acesso_service__WEBPACK_IMPORTED_MODULE_2__["LogAcessoService"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_log_acesso_service__WEBPACK_IMPORTED_MODULE_2__["LogAcessoService"],
+            ngx_spinner__WEBPACK_IMPORTED_MODULE_4__["NgxSpinnerService"]])
     ], LogAcessoComponent);
     return LogAcessoComponent;
 }());
@@ -845,7 +888,9 @@ __webpack_require__.r(__webpack_exports__);
 var LogAcessoService = /** @class */ (function () {
     function LogAcessoService(httpClient) {
         this.httpClient = httpClient;
-        this.apiUrl = "http://localhost:8081/access-api";
+        this.apiUrl = "";
+        this.apiUrl = "https://access-api-ps.herokuapp.com/access-api";
+        // this.apiUrl = "http://localhost:8081/access-api";
     }
     LogAcessoService.prototype.listar = function (page, size) {
         return this.httpClient.get(this.apiUrl + '/accesss?page=' + page + '&size=' + size);
@@ -1067,13 +1112,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _upload_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./upload.service */ "./src/app/upload/upload.service.ts");
 /* harmony import */ var _modelo_page__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../modelo/page */ "./src/app/modelo/page.ts");
+/* harmony import */ var ngx_spinner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-spinner */ "./node_modules/ngx-spinner/fesm5/ngx-spinner.js");
+
 
 
 
 
 var UploadComponent = /** @class */ (function () {
-    function UploadComponent(uploadService) {
+    function UploadComponent(uploadService, spinner) {
         this.uploadService = uploadService;
+        this.spinner = spinner;
         this.labelUpload = "Click para selecionar um Arquivo para Upload, maximo 20MB";
         this.isEnviarArquivo = 1;
         this.msgs = [];
@@ -1088,6 +1136,7 @@ var UploadComponent = /** @class */ (function () {
         this.listarArquivos(this.pagina.number, this.pagina.size);
     };
     UploadComponent.prototype.selecionaArquivo = function (event) {
+        this.spinner.show();
         if (event.target.files && event.target.files[0]) {
             this.arquivo = event.target.files[0];
             if (this.arquivo.size > 20000000) {
@@ -1098,9 +1147,11 @@ var UploadComponent = /** @class */ (function () {
                 this.isEnviarArquivo = 0;
             }
         }
+        this.spinner.hide();
     };
     UploadComponent.prototype.enviarArquivo = function () {
         var _this = this;
+        this.spinner.show();
         var nomeFile = this.arquivo.name;
         var extencaoFile = nomeFile.substring(nomeFile.length - 4);
         if (extencaoFile == ".log") {
@@ -1111,36 +1162,46 @@ var UploadComponent = /** @class */ (function () {
                 _this.resetaArquivo();
             }, function (err) {
                 _this.showMsg('error', '', err.message);
+                _this.spinner.hide();
             });
         }
         else {
-            alert("Formato do arquivo não permitido");
+            this.showMsg('error', '', "Formato do arquivo não permitido");
+            this.spinner.hide();
         }
     };
     UploadComponent.prototype.listarArquivos = function (page, size) {
         var _this = this;
+        this.spinner.show();
         this.uploadService.listar(page, size).subscribe(function (res) {
             _this.pagina = res;
             _this.listaArquivos = _this.pagina.content;
+            _this.spinner.hide();
         });
     };
     UploadComponent.prototype.processarArquivo = function (id) {
         var _this = this;
+        this.spinner.show();
         this.uploadService.processarArquivo(id).subscribe(function (res) {
             var retorno = res;
             _this.showMsg('success', '', retorno.message);
             _this.listarArquivos(_this.pagina.number, _this.pagina.size);
+            _this.spinner.hide();
         }, function (err) {
+            _this.spinner.hide();
             _this.showMsg('error', '', err.error);
         });
     };
     UploadComponent.prototype.delete = function (id) {
         var _this = this;
+        this.spinner.show();
         this.uploadService.delete(id).subscribe(function (res) {
             var retorno = res;
             _this.showMsg('success', '', retorno.message);
             _this.listarArquivos(_this.pagina.number, _this.pagina.size);
+            _this.spinner.hide();
         }, function (err) {
+            _this.spinner.hide();
             _this.showMsg('error', '', err.error);
         });
     };
@@ -1159,7 +1220,8 @@ var UploadComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./upload.component.html */ "./src/app/upload/upload.component.html"),
             styles: [__webpack_require__(/*! ./upload.component.css */ "./src/app/upload/upload.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_upload_service__WEBPACK_IMPORTED_MODULE_2__["UploadService"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_upload_service__WEBPACK_IMPORTED_MODULE_2__["UploadService"],
+            ngx_spinner__WEBPACK_IMPORTED_MODULE_4__["NgxSpinnerService"]])
     ], UploadComponent);
     return UploadComponent;
 }());
@@ -1187,7 +1249,9 @@ __webpack_require__.r(__webpack_exports__);
 var UploadService = /** @class */ (function () {
     function UploadService(httpClient) {
         this.httpClient = httpClient;
-        this.apiUrl = "http://localhost:8081/access-api";
+        this.apiUrl = "";
+        this.apiUrl = "https://access-api-ps.herokuapp.com/access-api";
+        //this.apiUrl = "http://localhost:8081/access-api";
     }
     UploadService.prototype.listar = function (page, size) {
         return this.httpClient.get(this.apiUrl + '/arquivos?page=' + page + '&size=' + size);
